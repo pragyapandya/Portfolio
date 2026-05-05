@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | Pragya Pandya</title>
+    <link rel="icon" type="image/x-icon" href="images/lol.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="page-main">
+        <section class="block-section bg-pink section-top-padded fade-in">
+            
+            <div class="inner-card layout-container detail-card-padded">
+                
+                <a href="projects.html" class="back-link">&larr; Back to Projects</a>
+                
+                <header class="detail-header-container">
+                    <h1 id="project-detail-title" class="detail-title"></h1>
+                </header>
+                
+                <div class="project-img-placeholder img-hero-size" id="project-detail-image"></div>
+                
+                <div class="detail-content-grid">
+                    
+                    <aside class="detail-sidebar-left">
+                        <h3 class="sidebar-heading">Category</h3>
+                        <p id="project-detail-category" class="sidebar-text"></p>
+
+                        <h3 class="sidebar-heading">Affiliation</h3>
+                        <p id="project-detail-affiliation" class="sidebar-text"></p>
+
+                        <h3 class="sidebar-heading">Date</h3>
+                        <p id="project-detail-date" class="sidebar-text"></p>
+
+                        <h3 class="sidebar-heading">Skills Used</h3>
+                        <div id="project-detail-skills" class="tag-container"></div> <br>
+                        
+                        <h3 class="sidebar-heading">External Links</h3>
+                        <div id="project-links-container" style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;"></div>
+
+                    </aside>
+
+                    <article class="detail-main-text">
+                        <h2 class="detail-section-heading">Project Details</h2>
+                        <p id="project-detail-short-description" class="detail-body-text"></p>
+
+                        <h2 class="detail-section-heading">Project Goals/Vision</h2>
+                        <p id="project-detail-goals" class="detail-body-text"></p>
+
+                        <h2 class="detail-section-heading">Project Description</h2>
+                        <p id="project-detail-description" class="detail-body-text"></p>
+
+                        <h3 class="sidebar-heading">Project Gallery</h3>
+                        <p class="detail-body-text">Here are some images from the project:</p>
+                        <div id="project-gallery-container" style="margin-top: 3rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;"></div>
+                    </article>  
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script src="main.js"></script>
+    <script src="project-detail-loader.js"></script>
+</body>
+</html>

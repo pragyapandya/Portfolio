@@ -1,0 +1,297 @@
+[
+  {
+    "id": 1,
+    "title": "DashFix: A Mobile Application for Car Maintenance",
+    "category": "Mobile App Prototype Development",
+    "affiliation": "UNC Charlotte",
+    "date": "2024-12-12", 
+    "skillsUsed": [
+        "Figma",
+        "Prototyping",
+        "Project Management",
+        "UX/UI Design",
+        "Agile Methodology",
+        "User Research",
+        "Wireframing",
+        "User Testing"
+    ],
+    "imagePath": "images//dwl.png",
+    "goals": "Providing users with a quick and easy way to identify car dashboard warning lights and understand their meanings, enabling them to take appropriate action to maintain their vehicle's health.",
+    "shortDescription": "This project involved developing a mobile application that helps users identify car dashboard warning lights. This high-fidelity prototype provides users with a comprehensive guide to understanding their vehicle's alerts.",
+    "description": [
+        "Developed a simple mobile app that helps users identify car dashboard warning lights. Built with React Native and Python, the app displays common symbols and provides troubleshooting tips to help users understand their vehicle’s alerts quickly. Implemented a clean, user-friendly interface focused on easy navigation and clear guidance."
+    ],
+    "galleryImages": [
+    "images/dashfix-wireframe.png",
+    "images/dashfix-mockup.png"
+  ],
+  "externalLinks": [
+    { "label": "View Figma Prototype", "url": "https://figma.com/your-link" },
+    { "label": "Download Project Brief (PDF)", "url": "files/brief.pdf" }
+  ]
+  
+  
+  },  
+  {
+    "id": 2,
+    "title": "3D Face Masks and Facial Recognition",
+    "category": "Computer Vision",
+    "affiliation": "UNC Charlotte",
+    "date": "2025-05-01",
+    "skillsUsed": [
+        "Python",
+        "LiDAR",
+        "PolyCam",
+        "3D Printing",
+        "Recap Pro",
+        "Data Analysis"
+    ],
+    "imagePath": "images//frt.png",
+    "goals": "Determine the effectiveness of 3D face masks in spoofing facial recognition technologies and develop a quantitative method to evaluate the match percentage of facial recognition systems against spoofing attempts.",
+    "shortDescription": "Can Iphone cameras and LiDAR detect 3D face masks? This project involved creating a realistic 3D face mask and testing it against common facial recognition technologies to evaluate their effectiveness in detecting spoofing methods.",
+    "description": [
+        "Created a realistic spoof of a face and tested it against common facial recognition technolgies. Once tested with common FRTs like LiDAR and common cameras, we created a Python program to test the Mean Squared Error to interpret a match percentage that can be quantitatively mapped and measured. This experiment was a test to better understand facial recognition technology and how well it detects spoofing methods."
+    ],
+    "galleryImages": [
+    "images/dashfix-wireframe.png",
+    "images/dashfix-mockup.png"
+  ],
+  "externalLinks": [
+    { "label": "View Figma Prototype", "url": "https://figma.com/your-link" },
+    { "label": "Download Project Brief (PDF)", "url": "files/brief.pdf" }
+  ]
+  },
+    {
+    "id": 3,
+    "title": "Restaurant Management System",
+    "category": "Software Development",
+    "affiliation": "UNC Charlotte",
+    "date": "2025-12-12",
+    "skillsUsed": [
+        "SQL",
+        "Python",
+        "API Development",
+        "Database Management",
+        "Backend Development",
+        "Sprint Planning",
+        "Project Management",
+        "Test-Driven Development",
+        "Agile Methodology"
+    ],
+    "imagePath": "images//tms.png",
+    "goals": "To create a comprehensive restaurant management system that streamlines operations, enhances customer experience, and improves overall efficiency.",
+    "shortDescription": "A full-stack restaurant management system designed to handle menu/ item management, order processing, inventory management, and staff ticketing.",
+    "description": [
+          "Architected a high-performance backend system using FastAPI and Python 3.8+, supporting core operations for multiple stakeholders including customers, restaurant staff, and chefs. Engineered a robust relational database schema in MySQL with SQLAlchemy ORM, managing 10+ modular entities such as menu items, order processing, and secure payment handling. Designed a highly organized project structure with separate packages for models, schemas, controllers, and routers to facilitate long-term maintenance and scalability Designed a seamless 10-step request lifecycle, ensuring data integrity at every stage from client request validation to database commit and formatted response. Developed a dynamic menu management system supporting full CRUD operations and complex filtering for attributes like ingredients, allergens, and calorie counts. Optimized operational efficiency by implementing an automated inventory tracking system that triggers alerts for ingredient shortages during order fulfillment. Integrated secure, multi-method payment processing and a promotional marketing system with usage tracking and expiration logic. Implemented advanced data analytics endpoints to identify the top 5 most popular dishes and aggregate customer reviews to flag items with average ratings below a set threshold (e.g., < 2.0). Ensured system reliability by achieving 100% test coverage for critical business logic using Pytest, simulating the request lifecycle from order placement to final delivery."
+    ]
+  ,
+  "galleryImages": [
+    "images/tms-wireframe.png",
+    "images/tms-mockup.png"
+  ],
+  "externalLinks": [
+    { "label": "View Figma Prototype", "url": "https://figma.com/your-link" },
+    { "label": "Download Project Brief (PDF)", "url": "files/brief.pdf" }
+  ]
+  }, 
+    {
+    "id": 4,
+    "title": "Blood Inventory and Donor Management System",
+    "category": "Healthcare",
+    "affiliation": "UNC Charlotte",
+    "date": "2025-05-01",
+    "skillsUsed": [
+        "Python",
+        "SQL",
+        "API Development",
+        "Database Management",
+        "Backend Development",
+        "Sprint Planning",
+        "Project Management",
+        "Agile Methodology",
+        "Requirements Analysis"
+    ],
+    "imagePath": "images//pto.png",
+    "goals": 
+    "To develop a comprehensive system for managing blood inventory and donor information, ensuring efficient allocation and improving patient care.",
+    "shortDescription": "A robust backend system designed to manage blood inventory, donor records, and blood drive logistics, ensuring streamlined distribution across multiple hospital networks.", 
+    "description": [
+      "Architected a comprehensive relational database in MySQL to manage blood inventory, donor records, and blood drive logistics, ensuring streamlined distribution across multiple hospital networks."
+    ]
+  ,
+  "galleryImages": [
+    "images/blood-inventory-wireframe.png",
+    "images/blood-inventory-mockup.png"
+  ],
+  "externalLinks": [
+    { "label": "View Figma Prototype", "url": "https://figma.com/your-link" },
+    { "label": "Download Project Brief (PDF)", "url": "files/brief.pdf" }
+  ]
+  
+  }, 
+    {
+    "id": 5,
+    "title": "Full-Stack Web Application for Blogging",
+    "category": "Frontend Development",
+    "affiliation": "",
+    "date": "2025-08-18",
+    "skillsUsed": [
+        "JavaScript",
+        "HTML/CSS",
+        "API Integration",  
+        "Server-Side Data Fetching"
+    ],    
+    "imagePath": "images//et.png",
+    "goals": "Develop a full-stack web application that allows users to create, read, update, and delete blog posts with features such as pagination, real-time search, and user-friendly navigation.",
+    "description": [
+      "Engineered a dynamic blog management system that achieved core functionalities including server-side data fetching, pagination, and real-time search."
+    ]
+  ,
+  "galleryImages": [
+    "images/blog-wireframe.png",
+    "images/blog-mockup.png"
+  ],
+  "externalLinks": [
+    { "label": "View Figma Prototype", "url": "https://figma.com/your-link" },
+    { "label": "Download Project Brief (PDF)", "url": "files/brief.pdf" }
+  ]
+  }, 
+    {
+    "id": 6,
+    "title": "Android Mobile Application Development Portfolio",
+    "category": "Full-Stack Development",
+    "affiliation": "UNC Charlotte",
+    "date": "2025-10-31",
+    "skillsUsed": [
+        "Android SDK",
+        "Java",
+        "XML/CSS",
+        "JavaScript",
+        "UI/UX Design",
+        "Full-Stack Development",
+        "User-Centered Design"
+    ],
+    "imagePath": "images//tms.png",
+    "goals": "Creating multiple high-performance Android applications that demonstrate expertise in Java, JavaScript, XML, and advanced Android SDK components to create intuitive user interfaces and seamless navigation flows across multiple app modules.",
+    "shortDescription": "A comprehensive portfolio of over 20 high-performance Android applications developed independently, showcasing expertise in Java, JavaScript, XML, and advanced Android SDK components to create intuitive user interfaces and seamless navigation flows across multiple app modules.",
+    "description": [
+        "Architected and deployed over 20 high-performance Android applications using Java, JavaScript, and XML, ensuring 100% compatibility across varying Android SDK versions. Engineered intuitive user interfaces by leveraging Android SDK components such as Activities, Fragments, and custom ViewGroups to manage complex user interactions and state transitions. Meticulously designed UI elements and layouts to ensure a consistent and professional user experience across multiple app components. Optimized data presentation by implementing RecyclerViews with custom adapters, reducing memory overhead and ensuring smooth scrolling for datasets of 50+ items. Streamlined cross-component communication using Intent Launchers and Listeners, resulting in a seamless navigation flow between 3+ distinct application modules. Enhanced real-time user feedback by integrating custom Toasts and notification systems to provide immediate validation for over 10+ unique user input scenarios. Implemented responsive layouts using ConstraintLayout and LinearLayout, achieving consistent UI rendering across 5+ different device screen sizes and densities. Demonstrated the ability to master complex Android SDK components and development environments through independent project execution."
+    ]
+  ,
+  "galleryImages": [
+    "images/tms-wireframe.png",
+    "images/tms-mockup.png"
+  ],
+  "externalLinks": [
+    { "label": "View Figma Prototype", "url": "https://figma.com/your-link" },
+    { "label": "Download Project Brief (PDF)", "url": "files/brief.pdf" }
+  ]
+  }, 
+    {
+    "id": 7,
+    "title": "CNN Website Redesign: Web Development and UI/UX Design",
+    "category": "Capstone Project",
+    "affiliation": "UNC Charlotte",
+    "date": "2026-05-04",
+    "skillsUsed": [
+        "Web Development",
+        "UI/UX Design",
+        "Prototyping",
+        "User Research",
+        "Responsive Design",
+        "HTML/CSS",
+        "JavaScript",
+        "Figma",
+        "Project Management",
+        "Agile Methodology"
+    ],
+    "imagePath": "images//cnn/cover.png",
+    "goals": 
+    "The goal for this project is to redesign the CNN website to enhance user experience, improve navigation, and modernize the visual design while prioritizing accessibility and usability across devices.",
+    "shortDescription": "Undergoing a comprehensive redesign of the CNN website, focusing on enhancing user experience, improving navigation, and modernizing the visual design while prioritizing accessibility and usability across devices.",
+    "description": [
+        "The Problem:",
+        "After conducting a through heuristic evaluation of the existing website, several usability issues were identified that negatively impacted the user experience. This included confusing navigation, cluttered layout, and poor information architecture. The news website lacked breadcrumb navigation, and lacked ways to navigate betwen pages, making it difficult for users to find the information they need, especially for scanning multiple news articles at once. The website also had a lack of clear visual hierarchy and inconsistent design patterns. Our aim for the redesign is to address these issues and create a more user-friendly experience. We plan to simplify the navigation and strengthen the information and visual hierarchy to improve the overall user experience. As this is a smaller prototype, the content included in the website is simplified significantly, but still captures the essence of the intended design.",
+        "Process: ",
+        "The redesign process involved multiple iterations and user testing to ensure the final product met the needs of the target audience. User feedback was incorporated throughout the development process to refine the design and improve the user experience. The first iterations of design involved paper sketches, low and high fidelty Figma mockups. Images of the low and higher fidelity mockups are included in the gallery. The first image shows the original CNN website, and then images afterwards indicate the progression of the design.The final design was developed based on the feedback and testing results. After several rounds of testing and refinement, the final design was approve, and a functional prototype was created using HTML, CSS, and JavaScript.",
+        "Testing and Outcomes: ",
+        "Usability tests were conducted to evaluate the effectiveness of the redesigned website. Feedback from over 12 users was collected over 3 sessions of user testing. The feedback was analyzed to identify areas for improvement, including improving color schemes and contrast, and ensuring sufficient spacing between elements, improving visual hierarchy, and overall layout. The results of the testing informed further refinements to the design, ensuring that the final product met the needs of the target audience. The user testing was conducted using the think-aloud protocol and task completion methods. Metrics gathered during the testing include task completion rates, time on task, fumbles, misclicks, and user satisfaction scores.",
+        "The final product is a fully functional, responsive website that addresses the identified usability issues and provides a better user experience. The links to the live site and a presentation visualization are provided in this same document to view."
+      ]
+  ,
+    "galleryImages": [
+    "images/cnn/6.png",
+    "images/cnn/1.png",
+    "images/cnn/2.png",
+    "images/cnn/3.png",
+    "images/cnn/4.png",
+    "images/cnn/5.png"
+  ],
+  "externalLinks": [
+    { "label": "View Website", "url": "https://rlee70.github.io/Interaction-Design/" },
+    { "label": "Download Project Slides (PDF)", "url": "files/cnn.pdf" }
+  ]
+  }
+  , 
+    {
+    "id": 8,
+    "title": "Rapid Prototyping Portfolio Projects Using Multiple Tools",
+    "category": "Portfolio Project",
+    "affiliation": "UNC Charlotte",
+    "date": "2026-06-01",
+    "skillsUsed": [
+        "Prototyping",
+        "UI/UX Design",
+        "Figma",
+        "Google Stitch",
+        "Balsamiq",
+        "User-Centered Design",
+        "User Testing"
+    ],
+    "imagePath": "images//pto.png",
+    "goals": "Develop a series of prototypes using multiple design tools to explore innovative solutions and enhance user experience. Utilize Figma and Adobe XD to create interactive mockups and conduct usability testing. Iterate on designs based on feedback and refine the final products to ensure they meet user needs and business objectives.",
+    "shortDescription": "Creating a collection of rapid prototypes using various design tools to experiment with different approaches and refine user experience.",
+    "description": [
+      "Develop a series of rapid prototypes using multiple design tools to explore innovative solutions and enhance user experience. Utilize Figma and Adobe XD to create interactive mockups and conduct usability testing. Iterate on designs based on feedback and refine the final products to ensure they meet user needs and business objectives. Including prototypes for a mobile appartment management application, a web browsing fashion application, user-centric restaurant ordering interface, and a kitchen/pantry management system-- each demonstrating different design principles and user interactions."
+    ]
+  ,
+    "galleryImages": [
+    "images/dashfix-wireframe.png",
+    "images/dashfix-mockup.png"
+  ],
+  "externalLinks": [
+    { "label": "View Figma Prototype", "url": "https://figma.com/your-link" },
+    { "label": "Download Project Brief (PDF)", "url": "files/brief.pdf" }
+  ]
+  }, 
+    {
+    "id": 9,
+    "title": "Composting and Waste Management System",
+    "category": "Competition Project",
+    "affiliation": "Central Piedmont Community College",
+    "date": "2024-05-01",
+    "skillsUsed": [
+        "UI/UX Design",
+        "User Research",
+        "Prototyping", 
+        "Sustainability",
+        "Project Management",   
+        "User-Centered Design"
+    ],
+    "imagePath": "images//csm.png",
+    "goals": "Promote sustainability and environmental responsibility by designing a comprehensive composting and waste management system for a local community. The project aims to reduce waste, educate users on composting techniques, and incentivize participation through a user-friendly business pitch/interface.",
+    "shortDescription": "Innovating a comprehensive composting and waste management system for a local community, incorporating sustainable practices and innovative solutions to reduce waste and promote environmental responsibility.",
+    "description": [
+      "Designed a comprehensive composting and waste management system for a local community, incorporating sustainable practices and innovative solutions to reduce waste and promote environmental responsibility. The project involved creating a user-friendly business pitch/interface for students to be mindful of their health, and to track their waste contributions, providing educational resources on composting techniques, and implementing a reward system to incentivize participation. Through this initiative, we aimed to foster a culture of sustainability and encourage community engagement in waste reduction efforts."
+    ]
+  ,
+    "galleryImages": [
+    "images/csm-wireframe.png",
+    "images/csm-mockup.png"
+  ],
+  "externalLinks": [
+    { "label": "View Figma Prototype", "url": "https://figma.com/your-link" },
+    { "label": "Download Project Brief (PDF)", "url": "files/brief.pdf" }
+  ]
+  }
+]

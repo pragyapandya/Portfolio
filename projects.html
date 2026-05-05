@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Pragya Pandya</title>
+    <link rel="icon" type="image/x-icon" href="images/lol.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="page-main">
+        <section class="block-section bg-pink section-top-padded">
+            <div class="inner-card layout-container header-card-padded">
+                <div class="header-text-center">
+                    <h1 class="page-title">My Projects</h1>
+                    <p class="page-subtitle">Here is a selection of my work. Click on any project to see the case study.</p>
+                </div>
+
+                <div class="filter-sort-controls controls-layout controls-border">
+                    <div class="control-group sort-group sort-min-width">
+                        <label for="sort-select" class="control-label">Sort By:</label>
+                        <div class="custom-select-wrapper">
+                            <select id="sort-select">
+                                <option value="recent">Date (Recent)</option>
+                                <option value="oldest">Date (Oldest)</option>
+                                <option value="az">Alphabetical (A-Z)</option>
+                                <option value="za">Alphabetical (Z-A)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="control-group filter-group filter-grow">
+                        <h3 class="control-label">Filter by Skill:</h3>
+                        <div id="skill-filter-tags" class="tag-container"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="block-section bg-pink section-no-top-pad">
+            <div class="layout-container">
+                <div id="projects-container" class="projects-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script src="main.js"></script> 
+    <script src="projects-list.js"></script>
+</body>
+</html>
